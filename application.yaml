@@ -1,0 +1,56 @@
+logging:
+  config: classpath:logback-gcp.xml
+  level:
+    org.springframework.web: INFO
+    com.datos_health: TRACE
+info:
+  app:
+    version: 0.1.${DATOS_APP_VERSION}
+  build:
+    version: ${DATOS_BUILD_VERSION}
+spring:
+  sleuth:
+    redis:
+      enabled: false
+  redis:
+    password: ${REDIS_PASSWORD}
+    sentinel:
+      nodes: ${REDIS_HOST}
+      master: mymaster
+      password: ${REDIS_PASSWORD}
+  session:
+    store-type: redis
+  rabbitmq:
+    host: rabbitmq
+    port: 5672
+
+microservice:
+  url:
+    ui: http://ui:8080
+    users: http://users:5050
+    core: http://core:4040
+    keycloak: http://keycloak:8080
+
+---
+
+spring:
+  profiles: integration
+  jpa:
+    show-sql: false
+  datasource:
+    url: ${MYSQL_URL}
+    username: ${MYSQL_USERNAME}
+    password: ${MYSQL_PASSWORD}
+    testOnBorrow: true
+    validationQuery: SELECT 1
+
+server:
+  port: 9090
+
+ichilov:
+  default-patient-department: ${DEFAULT_PATIENT_DEPARTMENT:2}
+  allergies-list-id: ${ALLERGIES_LIST_ID:2}
+  diagnosis-list-id: ${DIAGNOSIS_LIST_ID:1}
+  default-monitoring-plan: ${DEFAULT_MONITORING_PLAN:3}
+  temporary-monitoring-plan: ${TEMPORARY_MONITORING_PLAN:3}
+
