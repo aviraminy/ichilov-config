@@ -32,6 +32,10 @@ microservice:
     keycloak: http://keycloak:8080
 
 ---
+spring:
+  profiles: ichilov
+
+---
 
 spring:
   profiles: integration
