@@ -1,3 +1,18 @@
 {
-"ichilov": {"plan": {"config":{"a":"1","b":"true","c":"text"}}}
+   "ichilov":{
+      "plan":{
+         "config":[
+            {
+               "a":"1",
+               "b":"true",
+               "c":"text"
+            },
+            {
+               "a":"2",
+               "b":"true",
+               "c":"text"
+            }
+         ]
+      }
+   }
 }
