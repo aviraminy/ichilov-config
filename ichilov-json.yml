@@ -6,377 +6,378 @@
 },
 
 "prod.setup": 
-"{
-  \"setup\": {
-    \"q_ibd\": {
-      \"templateId\": 1,
-      \"surveyId\": 14,
-      \"surveyOnly\": true,
-      \"smsTemplateCode\": 21116,
-      \"smsTemplateSubCode\": 16,
-      \"smsReminderCode\": 21116,
-      \"smsReminderSubCode\": 16
+{"prod.setup": 
+'{
+  "setup": {
+    "q_ibd": {
+      "templateId": 1,
+      "surveyId": 14,
+      "surveyOnly": true,
+      "smsTemplateCode": 21116,
+      "smsTemplateSubCode": 16,
+      "smsReminderCode": 21116,
+      "smsReminderSubCode": 16
     },
-    \"q_ibd_following\": {
-      \"templateId\": 1,
-      \"surveyId\": 14,
-      \"surveyOnly\": true,
-      \"smsTemplateCode\": 21117,
-      \"smsTemplateSubCode\": 17,
-      \"smsReminderCode\": 21117,
-      \"smsReminderSubCode\": 17,
-      \"following\": true
+    "q_ibd_following": {
+      "templateId": 1,
+      "surveyId": 14,
+      "surveyOnly": true,
+      "smsTemplateCode": 21117,
+      "smsTemplateSubCode": 17,
+      "smsReminderCode": 21117,
+      "smsReminderSubCode": 17,
+      "following": true
     },
-    \"q_promis10\": {
-      \"templateId\": 1,
-      \"surveyId\": 15,
-      \"surveyOnly\": true,
-      \"smsTemplateCode\": 21114,
-      \"smsTemplateSubCode\": 14,
-      \"smsReminderCode\": 21115,
-      \"smsReminderSubCode\": 15
+    "q_promis10": {
+      "templateId": 1,
+      "surveyId": 15,
+      "surveyOnly": true,
+      "smsTemplateCode": 21114,
+      "smsTemplateSubCode": 14,
+      "smsReminderCode": 21115,
+      "smsReminderSubCode": 15
     },
-    \"q_retzef\": {
-      \"templateId\": 1,
-      \"surveyId\": 16,
-      \"surveyOnly\": true,
-      \"smsTemplateCode\": 21112,
-      \"smsTemplateSubCode\": 12,
-      \"smsReminderCode\": 21113,
-      \"smsReminderSubCode\": 13
+    "q_retzef": {
+      "templateId": 1,
+      "surveyId": 16,
+      "surveyOnly": true,
+      "smsTemplateCode": 21112,
+      "smsTemplateSubCode": 12,
+      "smsReminderCode": 21113,
+      "smsReminderSubCode": 13
     },
-    \"q_ibd_test\": {
-      \"templateId\": 1,
-      \"surveyId\": 23,
-      \"surveyOnly\": true,
-      \"smsTemplateCode\": 21116,
-      \"smsTemplateSubCode\": 16,
-      \"smsReminderCode\": 21116,
-      \"smsReminderSubCode\": 16
+    "q_ibd_test": {
+      "templateId": 1,
+      "surveyId": 23,
+      "surveyOnly": true,
+      "smsTemplateCode": 21116,
+      "smsTemplateSubCode": 16,
+      "smsReminderCode": 21116,
+      "smsReminderSubCode": 16
     },
-    \"q_ibd_following_test\": {
-      \"templateId\": 1,
-      \"surveyId\": 23,
-      \"surveyOnly\": true,
-      \"smsTemplateCode\": 21117,
-      \"smsTemplateSubCode\": 17,
-      \"smsReminderCode\": 21117,
-      \"smsReminderSubCode\": 17,
-      \"following\": true
+    "q_ibd_following_test": {
+      "templateId": 1,
+      "surveyId": 23,
+      "surveyOnly": true,
+      "smsTemplateCode": 21117,
+      "smsTemplateSubCode": 17,
+      "smsReminderCode": 21117,
+      "smsReminderSubCode": 17,
+      "following": true
     },
-    \"q_origin\": {
-      \"templateId\": 1,
-      \"surveyId\": 25,
-      \"surveyOnly\": true,
-      \"smsTemplateCode\": 21124,
-      \"smsTemplateSubCode\": 24,
-      \"smsReminderCode\": 21124,
-      \"smsReminderSubCode\": 24
+    "q_origin": {
+      "templateId": 1,
+      "surveyId": 25,
+      "surveyOnly": true,
+      "smsTemplateCode": 21124,
+      "smsTemplateSubCode": 24,
+      "smsReminderCode": 21124,
+      "smsReminderSubCode": 24
     },
-    \"q_home_isolation\": {
-      \"templateId\": 1,
-      \"surveyId\": 26,
-      \"surveyOnly\": true,
-      \"smsTemplateCode\": 21129,
-      \"smsTemplateSubCode\": 29,
-      \"smsReminderCode\": 21129,
-      \"smsReminderSubCode\": 29
+    "q_home_isolation": {
+      "templateId": 1,
+      "surveyId": 26,
+      "surveyOnly": true,
+      "smsTemplateCode": 21129,
+      "smsTemplateSubCode": 29,
+      "smsReminderCode": 21129,
+      "smsReminderSubCode": 29
     },
-    \"q_home_isolation_research\": {
-      \"templateId\": 1,
-      \"surveyId\": 28,
-      \"surveyOnly\": true,
-      \"smsTemplateCode\": 21129,
-      \"smsTemplateSubCode\": 29,
-      \"smsReminderCode\": 21129,
-      \"smsReminderSubCode\": 29
+    "q_home_isolation_research": {
+      "templateId": 1,
+      "surveyId": 28,
+      "surveyOnly": true,
+      "smsTemplateCode": 21129,
+      "smsTemplateSubCode": 29,
+      "smsReminderCode": 21129,
+      "smsReminderSubCode": 29
     },
-    \"q_home_quarantine\": {
-      \"templateId\": 1,
-      \"surveyId\": 29,
-      \"surveyOnly\": true,
-      \"smsTemplateCode\": 21130,
-      \"smsTemplateSubCode\": 30,
-      \"smsReminderCode\": 21130,
-      \"smsReminderSubCode\": 30
+    "q_home_quarantine": {
+      "templateId": 1,
+      "surveyId": 29,
+      "surveyOnly": true,
+      "smsTemplateCode": 21130,
+      "smsTemplateSubCode": 30,
+      "smsReminderCode": 21130,
+      "smsReminderSubCode": 30
     },
-    \"q_home_quarantine_following\": {
-      \"templateId\": 1,
-      \"surveyId\": 29,
-      \"surveyOnly\": true,
-      \"smsTemplateCode\": 21130,
-      \"smsTemplateSubCode\": 30,
-      \"smsReminderCode\": 21130,
-      \"smsReminderSubCode\": 30,
-      \"following\": true
+    "q_home_quarantine_following": {
+      "templateId": 1,
+      "surveyId": 29,
+      "surveyOnly": true,
+      "smsTemplateCode": 21130,
+      "smsTemplateSubCode": 30,
+      "smsReminderCode": 21130,
+      "smsReminderSubCode": 30,
+      "following": true
     },
-    \"q_tipat_halav_age5\": {
-      \"templateId\": 1,
-      \"surveyId\": 30,
-      \"surveyOnly\": true,
-      \"smsTemplateCode\": 21121,
-      \"smsTemplateSubCode\": 21,
-      \"smsReminderCode\": 21122,
-      \"smsReminderSubCode\": 22,
-      \"smsSecondReminderCode\": 21131,
-      \"smsSecondReminderSubCode\": 31
+    "q_tipat_halav_age5": {
+      "templateId": 1,
+      "surveyId": 30,
+      "surveyOnly": true,
+      "smsTemplateCode": 21121,
+      "smsTemplateSubCode": 21,
+      "smsReminderCode": 21122,
+      "smsReminderSubCode": 22,
+      "smsSecondReminderCode": 21131,
+      "smsSecondReminderSubCode": 31
     },
-    \"q_neurodegenerative_diseases_1\": {
-      \"templateId\": 1,
-      \"surveyId\": 32,
-      \"surveyOnly\": true,
-      \"smsTemplateCode\": 21137,
-      \"smsTemplateSubCode\": 37,
-      \"smsReminderCode\": 21137,
-      \"smsReminderSubCode\": 37
+    "q_neurodegenerative_diseases_1": {
+      "templateId": 1,
+      "surveyId": 32,
+      "surveyOnly": true,
+      "smsTemplateCode": 21137,
+      "smsTemplateSubCode": 37,
+      "smsReminderCode": 21137,
+      "smsReminderSubCode": 37
     },
-    \"q_neurodegenerative_diseases_1_following\": {
-      \"templateId\": 1,
-      \"surveyId\": 32,
-      \"surveyOnly\": true,
-      \"smsTemplateCode\": 21138,
-      \"smsTemplateSubCode\": 38,
-      \"smsReminderCode\": 21138,
-      \"smsReminderSubCode\": 38,
-      \"following\": true
+    "q_neurodegenerative_diseases_1_following": {
+      "templateId": 1,
+      "surveyId": 32,
+      "surveyOnly": true,
+      "smsTemplateCode": 21138,
+      "smsTemplateSubCode": 38,
+      "smsReminderCode": 21138,
+      "smsReminderSubCode": 38,
+      "following": true
     },
-    \"q_neurodegenerative_diseases_2\": {
-      \"templateId\": 1,
-      \"surveyId\": 35,
-      \"surveyOnly\": true,
-      \"smsTemplateCode\": 21137,
-      \"smsTemplateSubCode\": 37,
-      \"smsReminderCode\": 21137,
-      \"smsReminderSubCode\": 37
+    "q_neurodegenerative_diseases_2": {
+      "templateId": 1,
+      "surveyId": 35,
+      "surveyOnly": true,
+      "smsTemplateCode": 21137,
+      "smsTemplateSubCode": 37,
+      "smsReminderCode": 21137,
+      "smsReminderSubCode": 37
     },
-    \"q_neurodegenerative_diseases_2_following\": {
-      \"templateId\": 1,
-      \"surveyId\": 35,
-      \"surveyOnly\": true,
-      \"smsTemplateCode\": 21138,
-      \"smsTemplateSubCode\": 38,
-      \"smsReminderCode\": 21138,
-      \"smsReminderSubCode\": 38,
-      \"following\": true
+    "q_neurodegenerative_diseases_2_following": {
+      "templateId": 1,
+      "surveyId": 35,
+      "surveyOnly": true,
+      "smsTemplateCode": 21138,
+      "smsTemplateSubCode": 38,
+      "smsReminderCode": 21138,
+      "smsReminderSubCode": 38,
+      "following": true
     },
-    \"q_home_quarantine_release\": {
-      \"templateId\": 1,
-      \"surveyId\": 33,
-      \"surveyOnly\": true,
-      \"smsTemplateCode\": 21135,
-      \"smsTemplateSubCode\": 35,
-      \"smsReminderCode\": 21135,
-      \"smsReminderSubCode\": 35
+    "q_home_quarantine_release": {
+      "templateId": 1,
+      "surveyId": 33,
+      "surveyOnly": true,
+      "smsTemplateCode": 21135,
+      "smsTemplateSubCode": 35,
+      "smsReminderCode": 21135,
+      "smsReminderSubCode": 35
     },
-    \"q_covid19_recovery_reception\": {
-      \"templateId\": 1,
-      \"surveyId\": 34,
-      \"surveyOnly\": true,
-      \"smsTemplateCode\": 21139,
-      \"smsTemplateSubCode\": 39,
-      \"smsReminderCode\": 21140,
-      \"smsReminderSubCode\": 40
+    "q_covid19_recovery_reception": {
+      "templateId": 1,
+      "surveyId": 34,
+      "surveyOnly": true,
+      "smsTemplateCode": 21139,
+      "smsTemplateSubCode": 39,
+      "smsReminderCode": 21140,
+      "smsReminderSubCode": 40
     },
-    \"q_covid19_recovery_checkup\": {
-      \"templateId\": 1,
-      \"surveyId\": 36,
-      \"surveyOnly\": true,
-      \"smsTemplateCode\": 21141,
-      \"smsTemplateSubCode\": 41,
-      \"smsReminderCode\": 21142,
-      \"smsReminderSubCode\": 42,
-      \"smsSecondReminderCode\": 21143,
-      \"smsSecondReminderSubCode\": 43
+    "q_covid19_recovery_checkup": {
+      "templateId": 1,
+      "surveyId": 36,
+      "surveyOnly": true,
+      "smsTemplateCode": 21141,
+      "smsTemplateSubCode": 41,
+      "smsReminderCode": 21142,
+      "smsReminderSubCode": 42,
+      "smsSecondReminderCode": 21143,
+      "smsSecondReminderSubCode": 43
     },
-    \"q_covid19_recovery_checkup_following\": {
-      \"templateId\": 1,
-      \"surveyId\": 36,
-      \"surveyOnly\": true,
-      \"smsTemplateCode\": 21141,
-      \"smsTemplateSubCode\": 41,
-      \"smsReminderCode\": 21142,
-      \"smsReminderSubCode\": 42,
-      \"smsSecondReminderCode\": 21143,
-      \"smsSecondReminderSubCode\": 43,
-      \"following\": true
+    "q_covid19_recovery_checkup_following": {
+      "templateId": 1,
+      "surveyId": 36,
+      "surveyOnly": true,
+      "smsTemplateCode": 21141,
+      "smsTemplateSubCode": 41,
+      "smsReminderCode": 21142,
+      "smsReminderSubCode": 42,
+      "smsSecondReminderCode": 21143,
+      "smsSecondReminderSubCode": 43,
+      "following": true
     },
-    \"m_moma_chf\":{
-      \"templateId\": 8,
-      \"surveyOnly\": false
+    "m_moma_chf":{
+      "templateId": 8,
+      "surveyOnly": false
     },
-    \"m_moma_chf_hypertension\":{
-      \"templateId\": 7,
-      \"surveyOnly\": false
+    "m_moma_chf_hypertension":{
+      "templateId": 7,
+      "surveyOnly": false
     },
-    \"m_moma_chf_diabetic\":{
-      \"templateId\": 4,
-      \"surveyOnly\": false
+    "m_moma_chf_diabetic":{
+      "templateId": 4,
+      "surveyOnly": false
     },
-    \"m_moma_diabetic\":{
-      \"templateId\": 6,
-      \"surveyOnly\": false
+    "m_moma_diabetic":{
+      "templateId": 6,
+      "surveyOnly": false
     },
-    \"m_moma_fragile_htn_diabetes\":{
-      \"templateId\": 11,
-      \"surveyOnly\": false
+    "m_moma_fragile_htn_diabetes":{
+      "templateId": 11,
+      "surveyOnly": false
     },
-    \"m_moma_htn_diabetes\":{
-      \"templateId\": 11,
-      \"surveyOnly\": false
+    "m_moma_htn_diabetes":{
+      "templateId": 11,
+      "surveyOnly": false
     },
-    \"m_moma_fragile_htn\": {
-      \"templateId\": 13,
-      \"surveyOnly\": false
+    "m_moma_fragile_htn": {
+      "templateId": 13,
+      "surveyOnly": false
     },
-    \"m_testing\": {
-      \"templateId\": 14,
-      \"surveyOnly\": false
+    "m_testing": {
+      "templateId": 14,
+      "surveyOnly": false
     },
-    \"m_hh_mild_pneumonia\": {
-      \"templateId\": 17,
-      \"surveyOnly\": false
+    "m_hh_mild_pneumonia": {
+      "templateId": 17,
+      "surveyOnly": false
     },
-    \"m_hh_mild_pneumonia_with_diabetes\": {
-      \"templateId\": 18,
-      \"surveyOnly\": false
+    "m_hh_mild_pneumonia_with_diabetes": {
+      "templateId": 18,
+      "surveyOnly": false
     },
-    \"m_hh_complex_pneumonia\": {
-      \"templateId\": 19,
-      \"surveyOnly\": false
+    "m_hh_complex_pneumonia": {
+      "templateId": 19,
+      "surveyOnly": false
     },
-    \"m_hh_complex_pneumonia_with_diabetes\": {
-      \"templateId\": 20,
-      \"surveyOnly\": false
+    "m_hh_complex_pneumonia_with_diabetes": {
+      "templateId": 20,
+      "surveyOnly": false
     },
-    \"m_hh_mild_upper_respiratory\": {
-      \"templateId\": 21,
-      \"surveyOnly\": false
+    "m_hh_mild_upper_respiratory": {
+      "templateId": 21,
+      "surveyOnly": false
     },
-    \"m_hh_mild_upper_respiratory_with_disbetes\": {
-      \"templateId\": 22,
-      \"surveyOnly\": false
+    "m_hh_mild_upper_respiratory_with_disbetes": {
+      "templateId": 22,
+      "surveyOnly": false
     },
-    \"m_hh__complex_upper_respiratory\": {
-      \"templateId\": 23,
-      \"surveyOnly\": false
+    "m_hh__complex_upper_respiratory": {
+      "templateId": 23,
+      "surveyOnly": false
     },
-    \"m_hh__complex_upper_respiratory_with_diabetes\": {
-      \"templateId\": 24,
-      \"surveyOnly\": false
+    "m_hh__complex_upper_respiratory_with_diabetes": {
+      "templateId": 24,
+      "surveyOnly": false
     },
-    \"m_hh_uti\": {
-      \"templateId\": 25,
-      \"surveyOnly\": false
+    "m_hh_uti": {
+      "templateId": 25,
+      "surveyOnly": false
     },
-    \"m_hh_uti_with_diabetes\": {
-      \"templateId\": 26,
-      \"surveyOnly\": false
+    "m_hh_uti_with_diabetes": {
+      "templateId": 26,
+      "surveyOnly": false
     },
-    \"m_hh_wound_infection\": {
-      \"templateId\": 27,
-      \"surveyOnly\": false
+    "m_hh_wound_infection": {
+      "templateId": 27,
+      "surveyOnly": false
     },
-    \"m_hh_wound_infection_with_diabetes\": {
-      \"templateId\": 28,
-      \"surveyOnly\": false
+    "m_hh_wound_infection_with_diabetes": {
+      "templateId": 28,
+      "surveyOnly": false
     },
-    \"m_hh_cellulitis\": {
-      \"templateId\": 29,
-      \"surveyOnly\": false
+    "m_hh_cellulitis": {
+      "templateId": 29,
+      "surveyOnly": false
     },
-    \"m_hh_cellulitis_with_diabetes\": {
-      \"templateId\": 30,
-      \"surveyOnly\": false
+    "m_hh_cellulitis_with_diabetes": {
+      "templateId": 30,
+      "surveyOnly": false
     },
-    \"m_hh_infection\": {
-      \"templateId\": 31,
-      \"surveyOnly\": false
+    "m_hh_infection": {
+      "templateId": 31,
+      "surveyOnly": false
     },
-    \"m_hh_infection_with_diabetes\": {
-      \"templateId\": 32,
-      \"surveyOnly\": false
+    "m_hh_infection_with_diabetes": {
+      "templateId": 32,
+      "surveyOnly": false
     },
-    \"m_hh_mild_copd\": {
-      \"templateId\": 33,
-      \"surveyOnly\": false
+    "m_hh_mild_copd": {
+      "templateId": 33,
+      "surveyOnly": false
     },
-    \"m_hh_mild_copd_with_diabetes\": {
-      \"templateId\": 34,
-      \"surveyOnly\": false
+    "m_hh_mild_copd_with_diabetes": {
+      "templateId": 34,
+      "surveyOnly": false
     },
-    \"m_hh_complex_copd\": {
-      \"templateId\": 35,
-      \"surveyOnly\": false
+    "m_hh_complex_copd": {
+      "templateId": 35,
+      "surveyOnly": false
     },
-    \"m_hh_complex_copd_with_diabetes\": {
-      \"templateId\": 36,
-      \"surveyOnly\": false
+    "m_hh_complex_copd_with_diabetes": {
+      "templateId": 36,
+      "surveyOnly": false
     },
-    \"m_hh_mild_chf\": {
-      \"templateId\": 37,
-      \"surveyOnly\": false
+    "m_hh_mild_chf": {
+      "templateId": 37,
+      "surveyOnly": false
     },
-    \"m_hh_mild_chf_with_diabetes\": {
-      \"templateId\": 38,
-      \"surveyOnly\": false
+    "m_hh_mild_chf_with_diabetes": {
+      "templateId": 38,
+      "surveyOnly": false
     },
-    \"m_hh_complex_chf\": {
-      \"templateId\": 39,
-      \"surveyOnly\": false
+    "m_hh_complex_chf": {
+      "templateId": 39,
+      "surveyOnly": false
     },
-    \"m_hh_complex_chf_with_diabetes\": {
-      \"templateId\": 40,
-      \"surveyOnly\": false
+    "m_hh_complex_chf_with_diabetes": {
+      "templateId": 40,
+      "surveyOnly": false
     },
-    \"m_hh_mild_dehydration\": {
-      \"templateId\": 41,
-      \"surveyOnly\": false
+    "m_hh_mild_dehydration": {
+      "templateId": 41,
+      "surveyOnly": false
     },
-    \"m_hh_mild_dehydration_with_diabetes\": {
-      \"templateId\": 42,
-      \"surveyOnly\": false
+    "m_hh_mild_dehydration_with_diabetes": {
+      "templateId": 42,
+      "surveyOnly": false
     },
-    \"m_hh_complex_dehydration\": {
-      \"templateId\": 43,
-      \"surveyOnly\": false
+    "m_hh_complex_dehydration": {
+      "templateId": 43,
+      "surveyOnly": false
     },
-    \"m_hh_complex_dehydration_with_diabetes\": {
-      \"templateId\": 44,
-      \"surveyOnly\": false
+    "m_hh_complex_dehydration_with_diabetes": {
+      "templateId": 44,
+      "surveyOnly": false
     },
-    \"m_hh_electolite_balance\": {
-      \"templateId\": 45,
-      \"surveyOnly\": false
+    "m_hh_electolite_balance": {
+      "templateId": 45,
+      "surveyOnly": false
     },
-    \"m_hh_electolite_balance_with_diabetes\": {
-      \"templateId\": 46,
-      \"surveyOnly\": false
+    "m_hh_electolite_balance_with_diabetes": {
+      "templateId": 46,
+      "surveyOnly": false
     },
-    \"m_hh_pain_management\": {
-      \"templateId\": 47,
-      \"surveyOnly\": false
+    "m_hh_pain_management": {
+      "templateId": 47,
+      "surveyOnly": false
     },
-    \"m_hh_pain_management_with_diabetes\": {
-      \"templateId\": 48,
-      \"surveyOnly\": false
+    "m_hh_pain_management_with_diabetes": {
+      "templateId": 48,
+      "surveyOnly": false
     },
-    \"m_hh_hyperemesis\": {
-      \"templateId\": 49,
-      \"surveyOnly\": false
+    "m_hh_hyperemesis": {
+      "templateId": 49,
+      "surveyOnly": false
     },
-    \"m_hh_hyperemesis_with_diabetes\": {
-      \"templateId\": 50,
-      \"surveyOnly\": false
+    "m_hh_hyperemesis_with_diabetes": {
+      "templateId": 50,
+      "surveyOnly": false
     },
-    \"m_hh_general\": {
-      \"templateId\": 51,
-      \"surveyOnly\": false
+    "m_hh_general": {
+      "templateId": 51,
+      "surveyOnly": false
     },
-    \"m_suspected_hypertension\": {
-      \"templateId\": 52,
-      \"surveyOnly\": false
+    "m_suspected_hypertension": {
+      "templateId": 52,
+      "surveyOnly": false
     }
   },
-  \"momaSupervisorRoleId\": 1
-}"
-}
+  "momaSupervisorRoleId": 1
+}'
+}}
