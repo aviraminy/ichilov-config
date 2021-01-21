@@ -1,4 +1,11 @@
-{"prod.setup": 
+{
+"test": {
+  a: 1,
+  b: true,
+  c: "string"
+}
+
+"prod.setup": 
 "{
   \"setup\": {
     \"q_ibd\": {
