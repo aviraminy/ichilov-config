@@ -1,5 +1,6 @@
-{
-  "setup": "{
+{"prod.setup": 
+"{
+  \"setup\": {
     \"q_ibd\": {
       \"templateId\": 1,
       \"surveyId\": 14,
@@ -368,6 +369,7 @@
       \"templateId\": 52,
       \"surveyOnly\": false
     }
-  }",
-  "momaSupervisorRoleId": 1
+  },
+  \"momaSupervisorRoleId\": 1
+}"
 }
