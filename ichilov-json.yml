@@ -6,7 +6,6 @@
 },
 
 "prod.setup": 
-{"prod.setup": 
 '{
   "setup": {
     "q_ibd": {
@@ -380,4 +379,4 @@
   },
   "momaSupervisorRoleId": 1
 }'
-}}
+}
